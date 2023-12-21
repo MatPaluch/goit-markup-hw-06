@@ -415,50 +415,57 @@ body {
 .social-container {
   margin-right: 80px;
 }
+.form-subscribe {
+  display: flex;
+  gap: 24px;
+}
+
 .sub-input {
   width: 264px;
   height: 40px;
-  background-color: var(--NAVY-BLUE);
-  border-radius: 4px;
-  border: 2px solid var(--WHITE, #fff);
-  color: var(--WHITE);
-  padding: 8px 16px;
-  margin-right: 24px;
-  outline: none;
+  border: 1px solid var(--WHITE, #fff);
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--WHITE);
 }
 .sub-input::placeholder {
   color: var(--WHITE, #fff);
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 200% */
-  letter-spacing: 0.48px;
 }
 .sub-button {
-  display: inline-flex;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
   justify-self: center;
   align-items: center;
-  gap: 16px;
   color: var(--WHITE, #fff);
-  border-radius: 4px;
+
   background-color: var(--IRIS, #4d5ae5);
-  padding: 8px 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  position: static;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+
   /* Button Text */
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  padding: 8px 24px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
 }
 
 .sub-button:hover,
 .sub-button:focus {
   background-color: var(--OCEAN);
+}
+
+.subscribe-icon {
+  margin-left: 16px;
 }
 
 /*------------ Modal BOX ------------*/
