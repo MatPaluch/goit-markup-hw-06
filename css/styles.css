@@ -90,6 +90,8 @@ body {
   color: var(--IRIS);
   margin-right: 76px;
 }
+.logo:hover{
+  color: var(--OCEAN);
 .logo-studio {
   color: var(--NAVY-BLUE);
 }
