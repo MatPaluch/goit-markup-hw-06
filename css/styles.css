@@ -678,11 +678,6 @@ body {
   color: var(--IRIS, #4d5ae5);
 }
 
-.hidden {
-  appearance: none;
-  -moz-appearance: none;
-  --webkit-appearance: none;
-}
 .button-send {
   display: block;
   min-width: 169px;
